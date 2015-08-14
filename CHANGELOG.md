@@ -4,6 +4,18 @@
 * No Changes
 
 
+##coeus-api-1507.2
+* update plugin
+  * Travis Schneeberger on Mon, 20 Jul 2015 09:24:36 -0400 [View Commit](../../commit/6206e7ee3e56c47bdaf2df3012c04d5728d01e63)
+
+##coeus-api-1507.1
+* move to new nexus
+  * Travis Schneeberger on Mon, 20 Jul 2015 09:08:25 -0400 [View Commit](../../commit/6dbadd794add4b755815d710c8649526f2afd4bd)
+
+##coeus-api-1505.3
+* No Changes
+
+
 ##coeus-api-1505.2
 * Move to Java 8
   * Travis Schneberger on Thu, 23 Apr 2015 15:44:54 -0400 [View Commit](../../commit/f1b2c6cdb193f7f4b46d889dc0f737327fa4123a)
