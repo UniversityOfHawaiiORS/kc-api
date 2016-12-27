@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.kuali.coeus</groupId>
     <artifactId>coeus-api</artifactId>
-    <version>1609.0002</version>
+    <version>1612.0001</version>
     <packaging>pom</packaging>
     <description>
         The Kuali Coeus API module contains service apis for the Kuali Coeus application.
@@ -63,10 +63,10 @@
         <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
         <maven-scm-provider-gitexe.version>1.9.4</maven-scm-provider-gitexe.version>
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
-        <maven-resources-plugin.version>3.0.1</maven-resources-plugin.version>
+        <maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
         <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
-        <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
+        <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
 
         <require.maven.version>3.0</require.maven.version>
 
@@ -294,9 +294,9 @@
             </activation>
 
             <properties>
-                <error_prone_core.version>2.0.12</error_prone_core.version>
-                <plexus-compiler-javac.version>2.7</plexus-compiler-javac.version>
-                <plexus-compiler-javac-errorprone.version>2.7</plexus-compiler-javac-errorprone.version>
+                <error_prone_core.version>2.0.15</error_prone_core.version>
+                <plexus-compiler-javac.version>2.8.1</plexus-compiler-javac.version>
+                <plexus-compiler-javac-errorprone.version>2.8.1</plexus-compiler-javac-errorprone.version>
             </properties>
             <build>
                 <pluginManagement>
@@ -369,7 +369,7 @@
         <connection>${scm.connection}</connection>
         <developerConnection>${scm.developerConnection}</developerConnection>
         <url>${scm.url}</url>
-        <tag>coeus-api-1609.0002</tag>
+        <tag>coeus-api-1612.0001</tag>
     </scm>
 
     <distributionManagement>
